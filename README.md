@@ -13,6 +13,7 @@ It is inspired by the Shiva ansible playbook, but built for void linux hosts.
 
 
 |name|role|
+|:---|:---|
 |[hashid](https://github.com/psypanda/hashID)|cracking|
 |[seclists](https://github.com/danielmiessler/SecLists)|cracking|
 |[hydra](https://github.com/vanhauser-thc/thc-hydra)|cracking|
