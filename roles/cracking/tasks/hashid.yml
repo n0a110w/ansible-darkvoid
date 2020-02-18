@@ -1,0 +1,5 @@
+---
+- name: 'hashid: install'
+  pip: 
+    name: hashid
+
