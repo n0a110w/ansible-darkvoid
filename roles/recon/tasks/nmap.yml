@@ -1,0 +1,8 @@
+---
+- name: 'nmap: install (xbps)'
+  xbps:
+    name=nmap
+    state=present
+    update_cache=yes
+
+

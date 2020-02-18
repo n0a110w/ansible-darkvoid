@@ -1,0 +1,5 @@
+---
+- name: 'xbps: install radare2'
+  xbps: name=radare2 state=present
+
+

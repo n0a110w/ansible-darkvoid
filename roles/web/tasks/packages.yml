@@ -1,0 +1,27 @@
+- name: 'xbps: install ffuf'
+  xbps: 
+    name=ffuf
+    state=present
+
+- name: 'xbps: install sqlmap'
+  xbps: 
+   name=sqlmap
+   state=present
+
+- name: 'xbps: install gobuster'
+  xbps:
+    name=gobuster
+    state=present
+
+- name: 'xbps: install wfuzz'
+  xbps:
+    name=wfuzz
+    state=present
+
+- name: 'xbps: install gfuzz'
+  xbps:
+    name=gfuzz
+    state=present
+
+
+

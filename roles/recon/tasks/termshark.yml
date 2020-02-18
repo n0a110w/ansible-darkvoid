@@ -1,0 +1,7 @@
+---
+- name: 'termshark: install (xbps)'
+  xbps: 
+    name=termshark
+    state=present
+    update_cache=yes
+

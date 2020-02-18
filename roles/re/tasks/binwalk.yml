@@ -1,0 +1,5 @@
+---
+- name: 'xbps: install binwalk'
+  xbps: name=binwalk state=present
+
+

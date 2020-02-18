@@ -1,0 +1,15 @@
+---
+- name: 'xsser: install dependencies'
+  pip: 
+    name: pycurl,bs4,geoip2,gobject,cairocffi
+
+- name: 'xsser: download repo'
+  git: 
+    repo: https://github.com/epsylon/xsser.git
+    dest: /opt/xsser
+
+- name: 'xsser: symlink executable'
+  file:
+    src: /opt/xsser/xsser
+    dest: /usr/bin/xsser
+    state: link

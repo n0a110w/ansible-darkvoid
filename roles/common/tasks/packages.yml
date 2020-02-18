@@ -1,0 +1,19 @@
+---
+- block: 
+
+  - name: update package cache
+    xbps: update_cache=yes
+
+  - name: 'xbps: install the essentials (curl, make, rsync, etc)'
+    xbps: 
+      name=curl,libcurl-devel,rsync,wget,gcc,make,git 
+      state=present
+
+  - name: 'xbps: install openvpn'
+    xbps: name=openvpn state=present
+
+  - name: 'xbps: install socat'
+    xbps: name=socat state=present
+
+  - name: 'xbps: install python3-pip'
+    xbps: name=python3-pip state=present

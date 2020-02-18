@@ -1,0 +1,4 @@
+---
+- include: peda.yml 
+- include: radare2.yml
+- include: binwalk.yml 

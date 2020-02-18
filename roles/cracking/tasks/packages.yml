@@ -1,0 +1,10 @@
+---
+- name: 'xbps: install hydra'
+  xbps: name=thc-hydra state=present
+
+- name: 'xbps: install john the ripper'
+  xbps: name=john state=present
+
+- name: 'xbps: install hashcat'
+  xbps: name=hashcat state=present
+
