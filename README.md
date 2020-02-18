@@ -1,14 +1,11 @@
 # What is ansible-darkvoid? 
 an ansible playbook to provision a void linux host for penetration testing and ctf challenges
 
-It is inspired by the Shiva ansible playbook, but built for void linux hosts.  
-
-1. create a minimal void linux host 
+1. create a minimal void linux host (some tools require glibc) 
 2. install ansible on your local machine
 3. clone this repo. `git clone https://github.com/n0a110w/ansible-darkvoid.git`
 4. modify `inventory.ini` and replace the IP address with your void linux target
 5. run the playbook. `ansible -i inventory.ini playbook.yml`
-
 
 
 ## What's included? 
@@ -27,7 +24,15 @@ It is inspired by the Shiva ansible playbook, but built for void linux hosts.
 |[dirb](http://dirb.sourceforge.net/)|web|
 |[sqlmap](http://sqlmap.org/)|web|
 |[xsser](https://github.com/epsylon/xsser)|web|
-
-
+|[wafw00f](https://github.com/EnableSecurity/wafw00f)|web|
+|---|---|
+|[netdiscover](https://sourceforge.net/projects/netdiscover/)|recon|
+|[nmap](https://nmap.org/)|recon|
+|[termshark](https://github.com/gcla/termshark)|recon|
+|[pspy](https://github.com/DominicBreuker/pspy)|recon|
+|---|---|
+|[binwalk](https://github.com/ReFirmLabs/binwalk)|re|
+|[peda](https://github.com/longld/peda)|re|
+|[radare2](https://github.com/radareorg/radare2)|re|
 
 
