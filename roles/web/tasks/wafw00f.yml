@@ -1,0 +1,12 @@
+---
+- name: 'git: wafw00f'
+  git: 
+    repo: https://github.com/epsylon/xsser
+    dest: /opt/wafw00f
+
+- name: 'install: wafw00f'
+  shell: python setup.py install
+  args: 
+    chdir: /opt/wafw00f
+
+

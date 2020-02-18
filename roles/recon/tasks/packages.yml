@@ -1,0 +1,3 @@
+---
+- name: 'xbps: install fierce'
+  xbps: name=fierce state=present
