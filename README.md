@@ -11,7 +11,7 @@ It is inspired by the Shiva ansible playbook, but built for void linux hosts.
 
 
 
-
+## What's included? 
 |name|role|
 |:---|:---|
 |[hashid](https://github.com/psypanda/hashID)|cracking|
@@ -19,4 +19,15 @@ It is inspired by the Shiva ansible playbook, but built for void linux hosts.
 |[hydra](https://github.com/vanhauser-thc/thc-hydra)|cracking|
 |[john](https://www.openwall.com/john/)|cracking|
 |[hashcat](https://hashcat.net/hashcat/)|cracking|
+|---|---|
+|[gobuster](https://github.com/OJ/gobuster)|web|
+|[ffuf](https://github.com/ffuf/ffuf)|web|
+|[wfuzz](https://github.com/xmendez/wfuzz)|web|
+|[gfuzz](https://github.com/braaaax/gfuzz)|web|
+|[dirb](http://dirb.sourceforge.net/)|web|
+|[sqlmap](http://sqlmap.org/)|web|
+|[xsser](https://github.com/epsylon/xsser)|web|
+
+
+
 
