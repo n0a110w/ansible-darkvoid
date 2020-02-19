@@ -1,4 +1,7 @@
 # What is ansible-darkvoid? 
+
+***not finished...***
+
 an ansible playbook to provision a void linux host for penetration testing and ctf challenges
 
 1. create a minimal void linux host (some tools require glibc) 
