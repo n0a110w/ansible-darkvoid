@@ -3,10 +3,7 @@
 ***not finished...***
 
 - an ansible playbook to provision a void linux host for penetration testing and ctf challenges
-some popular online challenges include:
-- [OverTheWire](https://overthewire.org/wargames/)
-- [pwnable](http://pwnable.kr/)
-- [HackThebox](https://www.hackthebox.eu/)
+- I recommend using [Vultr](https://www.vultr.com/?ref=7453761) because allow uploading custom ISOs
 
 1. create a minimal void linux host
 2. install ansible on your local machine
@@ -43,3 +40,8 @@ some popular online challenges include:
 |[radare2](https://github.com/radareorg/radare2)|re|
 ***not finished***
 
+
+some online challenges include:  
+- [OverTheWire](https://overthewire.org/wargames/)
+- [pwnable](http://pwnable.kr/)
+- [HackThebox](https://www.hackthebox.eu/)
