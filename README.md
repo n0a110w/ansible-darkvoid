@@ -1,10 +1,14 @@
-# What is ansible-darkvoid? 
+### What is ansible-darkvoid? 
 
 ***not finished...***
 
-an ansible playbook to provision a void linux host for penetration testing and ctf challenges
+- an ansible playbook to provision a void linux host for penetration testing and ctf challenges
+some popular online challenges include:
+- [OverTheWire](https://overthewire.org/wargames/)
+- [pwnable](http://pwnable.kr/)
+- [HackThebox](https://www.hackthebox.eu/)
 
-1. create a minimal void linux host (some tools require glibc) 
+1. create a minimal void linux host
 2. install ansible on your local machine
 3. clone this repo. `git clone https://github.com/n0a110w/ansible-darkvoid.git`
 4. modify `inventory.ini` and replace the IP address with your void linux target
@@ -37,5 +41,5 @@ an ansible playbook to provision a void linux host for penetration testing and c
 |[binwalk](https://github.com/ReFirmLabs/binwalk)|re|
 |[peda](https://github.com/longld/peda)|re|
 |[radare2](https://github.com/radareorg/radare2)|re|
-
+***not finished***
 
