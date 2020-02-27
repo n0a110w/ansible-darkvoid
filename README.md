@@ -21,6 +21,18 @@ ansible -i inventory.ini playbook.yml
 
 
 ## What's included? 
+
+cracking:  
+ - [hashid](https://github.com/psypanda/hashID), [seclists](https://github.com/danielmiessler/SecLists), [hydra](https://github.com/vanhauser-thc/thc-hydra), [john](https://www.openwall.com/john/), [hashcat](https://hashcat.net/hashcat/)
+web:  
+ - gobuster, ffuf, wfuzz, gfuzz, dirb, sqlmap, xsser
+recon:
+ - netdiscover, nmap, termshark, pspy
+re:  
+ - binwalk, peda, radare2
+
+
+
 |name|role|
 |:---|:---|
 |[hashid](https://github.com/psypanda/hashID)|cracking|

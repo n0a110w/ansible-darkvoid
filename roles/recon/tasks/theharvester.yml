@@ -1,0 +1,23 @@
+---
+- block:
+
+  - name: 'the-harvester : clone repository'
+    git:
+      accept_hostkey: yes
+      clone: yes
+      depth: 1
+      dest: /opt/theHarvester
+      force: yes
+      repo: https://github.com/laramies/theHarvester.git
+
+  - name: 'the-harvester : install requirements'
+    pip:
+      requirements: /opt/theHarvester/requirements.txt
+      state: present
+
+      #  - name: 'the-harvester : install launcher'
+      #    template:
+      #      dest: /usr/local/bin/theHarvester
+      #      mode: 0755
+      #      src: ../templates/theHarvester.sh
+

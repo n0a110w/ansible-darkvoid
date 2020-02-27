@@ -2,7 +2,7 @@
 - hosts: void_glibc_64
   roles:
           #          - common
-          #          - recon
-    - web
+                    - recon
+          #    - web
       #    - cracking
             #          - re
