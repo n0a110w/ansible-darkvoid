@@ -25,11 +25,11 @@ ansible -i inventory.ini playbook.yml
 - cracking:  
     - [hashid](https://github.com/psypanda/hashID), [seclists](https://github.com/danielmiessler/SecLists), [hydra](https://github.com/vanhauser-thc/thc-hydra), [john](https://www.openwall.com/john/), [hashcat](https://hashcat.net/hashcat/)  
 - web:  
-    - gobuster, ffuf, wfuzz, gfuzz, dirb, sqlmap, xsser  
+    - [gobuster](https://github.com/OJ/gobuster), [ffuf](https://github.com/ffuf/ffuf), [wfuzz](https://github.com/xmendez/wfuzz). [gfuzz](https://github.com/braaaax/gfuzz), [dirb](http://dirb.sourceforge.net/), [sqlmap](http://sqlmap.org/), [xsser](https://github.com/epsylon/xsser), [wafw00f](https://github.com/EnableSecurity/wafw00f) 
 - recon:  
-    - netdiscover, nmap, termshark, pspy  
+    - [netdiscover](https://sourceforge.net/projects/netdiscover/), [nmap](https://nmap.org/), [termshark](https://github.com/gcla/termshark), [pspy](https://github.com/DominicBreuker/pspy)
 - re:  
-    - binwalk, peda, radare2  
+    - [binwalk](https://github.com/ReFirmLabs/binwalk), [peda](https://github.com/longld/peda), [radare2](https://github.com/radareorg/radare2)
 
 
 
