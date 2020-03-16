@@ -1,9 +1,8 @@
-## What is ansible-darkvoid? 
+## What is darkvoid? 
 
 ***not finished...***
 
-- an ansible playbook to provision a void linux host for penetration testing and ctf challenges
-> I recommend using [Vultr](https://www.vultr.com/?ref=7453761) because they allow the use of custom ISOs
+an ansible playbook to provision a void linux host for penetration testing and ctf challenges
 
 ## How to use this playbook?
 ```
@@ -39,3 +38,7 @@ popular online challenges:
 - [OverTheWire](https://overthewire.org/wargames/)
 - [pwnable](http://pwnable.kr/)
 - [HackThebox](https://www.hackthebox.eu/)
+
+---
+
+*I recommend using [Vultr](https://www.vultr.com/?ref=7453761) to deploy your instances because they allow uploading of custom ISOs*
