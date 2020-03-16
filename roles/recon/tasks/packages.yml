@@ -1,3 +1,5 @@
 ---
+- name: 'xbps: install dependencies'
+  xbps: name=libpcap,libcap-devel,libnet,libnet-devel state=present
 - name: 'xbps: install fierce'
   xbps: name=fierce state=present

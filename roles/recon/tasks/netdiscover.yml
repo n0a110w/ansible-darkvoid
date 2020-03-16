@@ -4,6 +4,7 @@
     repo: https://github.com/jdiazbb/netdiscover
     dest: /opt/netdiscover
     update: yes
+    force: yes
 
 - name: 'install: netdiscover'
   shell: bash update-oui-database.sh && cmake . && make && make install

@@ -6,17 +6,11 @@
 
   - name: 'xbps: install the essentials (curl, make, rsync, etc)'
     xbps: 
-      name=curl,libcurl-devel,rsync,wget,gcc,make,git,strace 
+      name=curl,libcurl-devel,rsync,wget,gcc,make,cmake,git,strace,neovim,screen 
       state=present
   
-  - name: 'xbps: install neovim'
-    xbps: name=neovim state=present
-
-  - name: 'xbps: install screen'
-    xbps: name=screen state=present
-
   - name: 'xbps: install openvpn'
     xbps: name=openvpn state=present
 
-  - name: 'xbps: install python3'
-    xbps: name=python3,python3-pip state=present
+  - name: 'xbps: install python3-pip'
+    xbps: name=python3-pip state=present

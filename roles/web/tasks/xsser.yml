@@ -10,4 +10,14 @@
 
 
 - name: 'xsser: symlink executable'
-  shell: ln -s /opt/xsser/xsser /usr/bin/xsser
+  file:
+      src: /opt/xsser/xsser
+      dest: /usr/bin/xsser
+      owner: root
+      group: root
+      mode: 0755 
+      state: link
+      force: yes
+
+
+#     link: shell: ln -s /opt/xsser/xsser /usr/bin/xsser

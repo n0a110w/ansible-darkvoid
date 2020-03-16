@@ -1,3 +1,4 @@
+---
 - name: 'xbps: install ffuf'
   xbps: 
     name=ffuf
