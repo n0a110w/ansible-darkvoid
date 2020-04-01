@@ -3,11 +3,11 @@
 an ansible playbook to provision a void linux host for penetration testing and ctf challenges
 
 ## Dependencies?
-#### Target:
- - target must be void linux with python3 installed 
-  - ***it seems the golang toolchain requires glibc void to compile... let me know if you get it working on x86_64 musl***
 #### Client (local):
  - git, ansible, ansible-playbook
+#### Target:
+ - target must be void linux with python3 installed 
+   - <small>***it seems the golang toolchain requires glibc void to compile... let me know if you get it working on x86_64 musl***<small>
 
 ## How to use this playbook?
 
@@ -37,7 +37,7 @@ login to the system and enjoy.
 - **re:**  
     - [binwalk](https://github.com/ReFirmLabs/binwalk), [peda](https://github.com/longld/peda), [radare2](https://github.com/radareorg/radare2)
 
-***thank you to the void package maintainers who make a lot of these tools available via the xbps repo. that helps tremendously***
+<small>***thank you to the void package maintainers who make a lot of these tools available via the xbps repo. that helps tremendously***<small>
 
 ---
 
