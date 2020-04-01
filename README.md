@@ -34,7 +34,7 @@ login to the system and enjoy.
     - [gobuster](https://github.com/OJ/gobuster), [ffuf](https://github.com/ffuf/ffuf), [wfuzz](https://github.com/xmendez/wfuzz). [gfuzz](https://github.com/braaaax/gfuzz), [dirb](http://dirb.sourceforge.net/), [sqlmap](http://sqlmap.org/), [xsser](https://github.com/epsylon/xsser), [wafw00f](https://github.com/EnableSecurity/wafw00f) 
 - **recon:**  
     - [netdiscover](https://sourceforge.net/projects/netdiscover/), [nmap](https://nmap.org/), [termshark](https://github.com/gcla/termshark), [pspy](https://github.com/DominicBreuker/pspy)
-- **re:**  
+- **reverse engineering:**  
     - [binwalk](https://github.com/ReFirmLabs/binwalk), [peda](https://github.com/longld/peda), [radare2](https://github.com/radareorg/radare2)
 
 *thank you to the void package maintainers who make a lot of these tools available via the xbps repo. that helps tremendously.*
