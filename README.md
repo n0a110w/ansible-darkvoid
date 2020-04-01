@@ -1,18 +1,29 @@
 ## What is darkvoid? 
 
-***not finished...***
-
 an ansible playbook to provision a void linux host for penetration testing and ctf challenges
 
+## Dependencies?
+#### Target:
+ - target must be void linux with python3 installed 
+  - ***it seems the golang toolchain requires glibc void to compile... let me know if you get it working on x86_64 musl***
+#### Client (local):
+ - git, ansible, ansible-playbook
+
 ## How to use this playbook?
+
 ```
-3. clone this repo (on your local machine) 
+1. clone this repo locally 
 git clone https://github.com/n0a110w/ansible-darkvoid.git
 
-4. modify `inventory.ini` and replace the IP address with your void linux target(s)
+2. modify `inventory.ini` and replace the IP address with your void linux target(s)
+# vi one-liner (though probably slower than just vi *edit* shift zz)
+vi -c '%s/127.0.0.1/target.i.p.addr/' inventory.ini -c 'wq'
 
-5. run the playbook. 
+3. run the playbook. 
 ansible -i inventory.ini playbook.yml
+
+that's it. 
+login to the system and enjoy.
 ```
 
 ## What's included? 
@@ -26,7 +37,7 @@ ansible -i inventory.ini playbook.yml
 - **re:**  
     - [binwalk](https://github.com/ReFirmLabs/binwalk), [peda](https://github.com/longld/peda), [radare2](https://github.com/radareorg/radare2)
 
-***not finished***
+***thank you to the void package maintainers who make a lot of these tools available via the xbps repo. that helps tremendously***
 
 ---
 
