@@ -37,8 +37,6 @@ login to the system and enjoy.
 - **reverse engineering:**  
     - [binwalk](https://github.com/ReFirmLabs/binwalk), [peda](https://github.com/longld/peda), [radare2](https://github.com/radareorg/radare2)
 
-*thank you to the void package maintainers who make a lot of these tools available via the xbps repo. that helps tremendously.*
-
 ---
 
 popular online challenges:  
