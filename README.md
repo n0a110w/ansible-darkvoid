@@ -36,8 +36,8 @@ login to the system and enjoy.
 - **reverse engineering:**  
     - [binwalk](https://github.com/ReFirmLabs/binwalk), [peda](https://github.com/longld/peda), [radare2](https://github.com/radareorg/radare2)
 - **paths:**  
-    - `/usr/share/shells`: various web shells  
-    - `/usr/share/wordlists:` wordlists
+    - `/usr/share/shells`  
+	- `/usr/share/wordlists`  
 
 ---
 
