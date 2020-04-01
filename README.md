@@ -18,6 +18,8 @@ git clone https://github.com/n0a110w/ansible-darkvoid.git
 2. modify `inventory.ini` and replace the IP address with your void linux target(s)
 # vi one-liner (though probably slower than just vi *edit* shift zz)
 vi -c '%s/127.0.0.1/target.i.p.addr/' inventory.ini -c 'wq'
+# (gnu)sed though
+sed -i 's/127.0.0.1/target.i.p.addr/' inventory.ini
 
 3. run the playbook. 
 ansible -i inventory.ini playbook.yml
