@@ -1,0 +1,5 @@
+---
+- name: 'shells: copy shells'
+  copy:
+    src: ../files/shells
+    dest: /usr/share

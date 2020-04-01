@@ -27,7 +27,6 @@ login to the system and enjoy.
 ```
 
 ## What's included? 
-
 - **cracking:**  
     - [hashid](https://github.com/psypanda/hashID), [seclists](https://github.com/danielmiessler/SecLists), [hydra](https://github.com/vanhauser-thc/thc-hydra), [john](https://www.openwall.com/john/), [hashcat](https://hashcat.net/hashcat/)  
 - **web:**  
@@ -36,6 +35,9 @@ login to the system and enjoy.
     - [netdiscover](https://sourceforge.net/projects/netdiscover/), [nmap](https://nmap.org/), [termshark](https://github.com/gcla/termshark), [pspy](https://github.com/DominicBreuker/pspy)
 - **reverse engineering:**  
     - [binwalk](https://github.com/ReFirmLabs/binwalk), [peda](https://github.com/longld/peda), [radare2](https://github.com/radareorg/radare2)
+- **paths:**
+`/usr/share/shells`: various web shells  
+`/usr/share/wordlists:` wordlists
 
 ---
 
