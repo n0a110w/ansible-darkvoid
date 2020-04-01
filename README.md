@@ -6,14 +6,10 @@ an ansible playbook to provision a void linux host for penetration testing and c
 
 ## How to use this playbook?
 ```
-1. create a minimal void linux host
-
-2. install ansible on your local machine
-
-3. clone this repo. 
+3. clone this repo (on your local machine) 
 git clone https://github.com/n0a110w/ansible-darkvoid.git
 
-4. modify `inventory.ini` and replace the IP address with your void linux target
+4. modify `inventory.ini` and replace the IP address with your void linux target(s)
 
 5. run the playbook. 
 ansible -i inventory.ini playbook.yml
@@ -41,4 +37,4 @@ popular online challenges:
 
 ---
 
-*I recommend using [Vultr](https://www.vultr.com/?ref=7453761) to deploy your instances because they allow uploading of custom ISOs*
+*I recommend using [Vultr](https://www.vultr.com/?ref=7453761) to deploy your instances*

@@ -6,7 +6,10 @@
     update: yes
     force: yes
 
-- name: 'install: netdiscover'
+- name: 'xbps: install netdiscover dependencies'
+  xbps: name=libpcap-devel,libnet-devel state=present
+
+- name: 'install source: netdiscover'
   shell: bash update-oui-database.sh && cmake . && make && make install
   args:
     chdir: /opt/netdiscover

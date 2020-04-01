@@ -1,8 +1,8 @@
 ---
 - hosts: void
   roles:
-      #   - common
-      #   - recon
+          - common
+          - recon
           - web
-      #   - cracking
-      #   - re
+          - cracking
+          - re
